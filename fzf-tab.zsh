@@ -78,7 +78,7 @@
   fi
 
   # tell zsh that the match is successful
-  builtin compadd -U -qS '' -R -ftb-remove-space ''
+  builtin compadd -qS '' -R -ftb-remove-space ''
 }
 
 # when insert multi results, a whitespace will be added to each result
